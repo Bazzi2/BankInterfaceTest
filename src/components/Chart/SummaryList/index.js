@@ -13,9 +13,9 @@ import {
 
 export default function ChartSummaryList() {
   const summaryList = [
-    {key: '1', description: 'Food', amount: 201},
-    {key: '2', description: 'Fuel', amount: 12},
-    {key: '5', description: 'Others', amount: 1200},
+    {key: '1', description: 'Food', amount: 201.0},
+    {key: '2', description: 'Fuel', amount: 12.0},
+    {key: '5', description: 'Others', amount: 1200.0},
   ];
   return (
     <Summary>
@@ -30,7 +30,7 @@ export default function ChartSummaryList() {
               style={Styles.icon}
             />
             <SummaryListText>
-              {item.description} $ {item.amount}
+              {item.description}: $ {item.amount}
             </SummaryListText>
           </SummaryItems>
         )}

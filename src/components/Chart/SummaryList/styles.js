@@ -17,6 +17,7 @@ export const SummaryList = styled.FlatList``;
 
 export const SummaryListText = styled.Text`
   color: ${Colors.metalDark};
+  padding-right: 20px;
 `;
 
 export const Styles = StyleSheet.create({
