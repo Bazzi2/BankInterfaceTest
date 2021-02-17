@@ -3,12 +3,13 @@ import {StatusBar} from 'react-native';
 
 import '~/config/ReactotronConfig';
 
+import Colors from '~/Style/colors';
 import Routes from '~/routes';
 
 const App = () => (
   <>
     <Routes />
-    <StatusBar barStyle="dark-content" backgroundColor="#ff3838" />
+    <StatusBar barStyle="light-content" backgroundColor={Colors.black} />
   </>
 );
 
