@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  background-color: #d1ccc0;
+  background-color: #dfe4ea;
   flex: 1;
 `;
